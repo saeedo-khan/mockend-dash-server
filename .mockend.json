@@ -1,5 +1,5 @@
 {
-    "users":{
+    "User":{
         "data": [
             {
                 "id": "1",
@@ -31,7 +31,7 @@
         ]
         
     },
-    "orders": {
+    "Order": {
         "data":[
             {
                 "id": "1",
@@ -55,7 +55,7 @@
             }
         ]
     },
-    "products":{
+    "Product":{
         "data":[
             {
                 "id": "1",
