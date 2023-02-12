@@ -1,0 +1,71 @@
+{
+    "users":[
+        {
+            "id": "1",
+            "first_name": "John",
+            "last_name": "doe",
+            "email": "john@example.com",
+            "date_birth": "1995/12/4",
+            "gender": "male",
+            "isAdmin": true
+        },
+        {
+            "id": "2",
+            "first_name": "Justina",
+            "last_name": "Ginglell",
+            "email": "jginglell0@networkadvertising.org",
+            "date_birth": "1988/1/5",
+            "gender": "Female",
+            "isAdmin":false
+        },
+        {
+            "id": "3",
+            "first_name": "Marion",
+            "last_name": "Jenman",
+            "email": "mjenman1@surveymonkey.com",
+            "date_birth": "1987/5/1",
+            "gender": "Male",
+            "isAdmin":false
+        }
+    ],
+    "orders": [
+        {
+            "id": "1",
+            "tracking_no": 68451,
+            "product_image":"https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "product_name": "Nike shoes",
+            "price": 45,
+            "status": "Pending",
+            "total_order": 320,
+            "total_amount": 32.0
+        },
+        {
+            "id": "2",
+            "tracking_no": 68451,
+            "product_image":"https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "product_name": "Nike shoes",
+            "price": 73,
+            "status": "Pending",
+            "total_order": 320,
+            "total_amount": 32.0
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "name": "Nike shoes",
+            "category": "shoes",
+            "price": 53,
+            "image": "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "quantity": 100
+        },
+        {
+            "id": "2",
+            "name": "topoff t-shirt",
+            "category": "clothes",
+            "price": 46,
+            "image": "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "quantity": 78
+        }
+    ]
+}
